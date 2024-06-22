@@ -934,6 +934,15 @@ body {
     .page-third {
         text-align: justify;
     }
+
+    .menu-benefits {
+        gap: 72px 24px;
+    }
+
+    .menu-benefits-item {
+        margin-bottom: 0;
+        width: calc((100% - 72px) / 4);
+    }
 }
 
 
