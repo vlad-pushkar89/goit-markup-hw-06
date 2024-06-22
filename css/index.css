@@ -939,9 +939,15 @@ body {
         gap: 72px 24px;
     }
 
+    .menu-benefits {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
     .menu-benefits-item {
-        margin-bottom: 0;
-        width: calc((100% - 72px) / 4);
+        padding-right: 0;
+        width: calc((100% - 24px) / 2);
     }
 }
 
