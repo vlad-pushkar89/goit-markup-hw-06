@@ -244,7 +244,7 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+ 
 .page-first {
         font-weight: 700;
         font-size: 36px;
@@ -1052,6 +1052,10 @@ body {
         flex-wrap: wrap;
     }
 
+/* ========== OUR PORTFOLIO STYLES========== *
+
+
+
 /* ========== FOOTER STYLES ========== */
     .div-footer {
         display: flex;
@@ -1165,6 +1169,10 @@ body {
     .menu-team-icon {
         margin-bottom: 32px;
     }
+
+/* ========== OUR PORTFOLIO STYLES========== *
+
+
 
 /* ========== FOOTER STYLES ========== */
     .page-footer {
