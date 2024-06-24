@@ -1091,6 +1091,14 @@ body {
         display: flex;
     }
 
+    .input-footer-btn {
+        margin-top: 0;
+    }
+
+    .para-form {
+        justify-content: flex-start;
+    }
+
 
 /* ========== BACKDROP STYLES ========== */
     .modal {
