@@ -230,9 +230,9 @@ body {
 .page-section {
     padding-top: 72px;
     padding-bottom: 72px;
-    margin-bottom: 96px;
-    max-width: 320px;
-    height: 432px;
+    /* margin-bottom: 96px; */
+    /* max-width: 320px;
+    height: 432px; */
     margin-right: auto;
     margin-left: auto;
     background-color: #2e2f42;
@@ -304,7 +304,8 @@ body {
 }
 
 .menu-benefits-item:not(:last-child) {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
+    padding-bottom: 72px;
 }
 
 .benefits-icon {
@@ -332,8 +333,8 @@ body {
 /*  ========== OUR-TEAM STYLES ========== */
 .page-team {
     /* margin-bottom: 120px; */
-    margin-bottom: 96px;
-    margin-right: auto;
+    /* margin-bottom: 96px;
+    margin-right: auto; */
     margin-left: auto;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -371,12 +372,12 @@ body {
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     width: 264px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 .menu-team-item:not(:last-child) {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 
 
@@ -446,8 +447,10 @@ body {
 .portf-section {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 .menu-portf {
@@ -467,6 +470,10 @@ body {
 
 .menu-portf-item:hover .para-overlay {
     transform: translateY(0%);
+}
+
+.menu-portf-img {
+    width: 100%;
 }
 
 .container-team-overlay {
@@ -505,8 +512,8 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
-        padding-left: 16px;
+        /* padding-top: 32px;
+        padding-left: 16px; */
         margin-bottom: 8px;
 }
 
@@ -516,8 +523,8 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
-        padding-left: 16px;
+        /* padding-bottom: 32px;
+        padding-left: 16px; */
 }
 
 /* ========== FOOTER STYLES ========== */
@@ -556,8 +563,11 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        padding-bottom: 16px;
-        display: inline-block;
+        margin-bottom: 16px;
+        display: block;
+        text-align: center;
+        /* padding-bottom: 16px;
+        display: inline-block; */
 }
 
 .para-footer {
@@ -982,8 +992,8 @@ body {
     .address-menu {
         display: block;
         gap: 40px;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        /* padding-top: 16px;
+        padding-bottom: 16px; */
     }
 
     .address-menu {
@@ -1010,8 +1020,8 @@ body {
     .page-section {
         padding-top: 112px;
         padding-bottom: 112px;
-        max-width: 768px;
-        height: 436px;
+        /* max-width: 768px;
+        height: 436px; */
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -1047,23 +1057,38 @@ body {
 
 /*  ========== OUR-TEAM STYLES ========== */
     .menu-team {
-        gap: 24px 64px;
+        gap: 64px 24px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-/* ========== OUR PORTFOLIO STYLES========== *
-
+/* ========== OUR PORTFOLIO STYLES========== */
+    .menu-portf-item {
+        width: calc((100% - 24px) / 2);
+    }
 
 
 /* ========== FOOTER STYLES ========== */
     .div-footer {
         display: flex;
         align-items: baseline;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        padding-left: 108px;
     }
 
     .container-footer-icon {
         margin-left: 24px;
+        margin-top: 0;
+    }
+
+    .container-form {
+        margin-top: 0;
+    }
+
+    .input-form {
+        display: flex;
     }
 
 
@@ -1089,15 +1114,16 @@ body {
     .address-menu {
         flex-direction: row;
         gap: 40px;
+        margin-top: 24px;
     }
 
 /* ========== HERO STYLES ========== */
     .page-section {
         padding-top: 188px;
         padding-bottom: 188px;
-        margin-bottom: 120px;
-        max-width: 1140px;
-        height: 600px;
+        /* margin-bottom: 120px; */
+        /* max-width: 1140px; */
+        /* height: 600px; */
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
@@ -1147,12 +1173,6 @@ body {
     }
 
 /*  ========== OUR-TEAM STYLES ========== */
-    .page-team {
-        margin-bottom: 120px;
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
     .menu-team {
         display: flex;
         justify-content: space-around;
@@ -1170,8 +1190,14 @@ body {
         margin-bottom: 32px;
     }
 
-/* ========== OUR PORTFOLIO STYLES========== *
+/* ========== OUR PORTFOLIO STYLES========== */
+    .menu-portf-item {
+        width: calc((100% - 24px) / 4);
+    }
 
+    .menu-portf {
+        justify-content: center;
+    }
 
 
 /* ========== FOOTER STYLES ========== */
@@ -1183,6 +1209,7 @@ body {
     .div-footer {
         display: flex;
         align-items: baseline;
+        flex-wrap: nowrap;
     }
 
     .container-page-footer {
@@ -1194,7 +1221,8 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-right: 120px;
+        margin-right: 80px;
+        margin-left: 0;
     }
 
     .input-form {
@@ -1204,6 +1232,7 @@ body {
     .review-input-footer {
         width: 264px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        opacity: 1;
     }
 
     .input-footer-btn {
@@ -1213,15 +1242,17 @@ body {
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 24px;
-        margin-left: 24px;
+        margin-top: 0;
     }
 
     .para-form {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
     }
 
+    .link-footer {
+        display: flex;
+    }
 
 /* ========== BACKDROP STYLES ========== */
     .icon-close-btn {
